@@ -12,23 +12,24 @@ body {
 .header-container {
   background-color: #3e80a3;
   height: 80px;
-  
+
   display: flex;
   justify-content: center;
   width: 100%;
-  
-  
 }
 .header {
   max-width: 1440px;
- width:100%;
+  width: 100%;
   height: 80px;
   display: flex;
   justify-content: space-between;
   padding: 0 150px;
   align-items: center;
 }
-
+.header i {
+  display: none;
+  font-size: 36px;
+}
 .nav a {
   float: left;
   color: #000000;
@@ -51,10 +52,6 @@ body {
 }
 .masterhead {
   max-width: 1440px;
-
-
-
-
 }
 
 .masterhead-text {
@@ -79,18 +76,17 @@ body {
   cursor: pointer;
   box-shadow: 5px 5px #79797991;
 }
-.quicknav-container{
-    background-color: #ffffff;
+.quicknav-container {
+  background-color: #ffffff;
   height: 300px;
   display: flex;
   justify-content: center;
-  
 }
 .quicknav {
-    max-width: 1440px;
-    width: 100%;
+  max-width: 1440px;
+  width: 100%;
   background-color: #ffffff;
-  height: 300px;
+ 
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -167,15 +163,14 @@ body {
   position: relative;
   height: 600px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 .news-container {
-    max-width: 1440px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .news1 {
   height: 450px;
@@ -214,15 +209,15 @@ body {
   box-shadow: 5px 5px #79797991;
 }
 .social-container {
-    width: 100%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    background-color: #afd8ed;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  background-color: #afd8ed;
 }
 .social {
-    max-width: 1440px;
-    width: 100%;
+  max-width: 1440px;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -235,15 +230,14 @@ body {
   color: #573810;
 }
 .footer-container {
-    background-color: #184157;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-
+  background-color: #184157;
+  height: 300px;
+  display: flex;
+  justify-content: center;
 }
 .footer {
-    max-width: 1440px;
-    width: 100%;
+  max-width: 1440px;
+  width: 100%;
   display: flex;
   justify-content: space-around;
 
@@ -264,8 +258,94 @@ body {
   margin: 1rem;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
   body {
     background-color: lightblue;
+  }
+  .header{
+    padding: 0 15px;
+  }
+  .quicknav-container {
+    height: 250px;
+  }
+  .quicknav a{
+    font-size: 48px;
+  }
+  .storage {
+    height: 150px;
+    width: 250px;
+  }
+  .sales {
+    height: 150px;
+    width: 250px;
+  }
+  .service {
+    height: 150px;
+    width: 250px;
+  }
+  .news1 {
+    width: 350px
+
+  }
+  .social-container{
+    height:300px;
+    
+  }
+  .social h1 {
+    font-size: 42px;
+  }
+  #team-bathotell {
+    width: 85%;
+    height: 85%;
+  }
+  #map-bathotell {
+    width:85%;
+    height: 85%;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .nav {
+    display: none
+  }
+  .header img {
+    width:60%
+  }
+  .header i {
+    display: inline;
+    font-size: 42px;
+    padding-right: 1rem;
+  }
+  .quicknav-container{
+    display: none;
+  }
+ 
+  .news-container {
+    flex-direction: column;
+    /* display: none */
+  }
+  .news {
+    height: 1000px;
+  }
+  .news1 {
+    margin-top: 2rem;
+    width:80%
+  }
+  .social-container {
+    height: 650px
+  }
+  .social {
+    flex-direction: column;
+  }
+  .socialmedia h2 {
+    display: none;
+  }
+ 
+  .socialmedia-logo {
+    display: flex;
+    flex-direction: column;
+  }
+  .socialmedia i {
+    font-size: 72px;
+    margin: 0.5rem;
   }
 }
