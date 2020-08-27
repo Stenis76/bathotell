@@ -43,7 +43,8 @@ body {
   color: #afd8ed;
 }
 .masterhead-container {
-  background-image: url("/resources/batpahavet.jpg");
+  background-color: burlywood;
+  /* background-image: url("/resources/hero.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
