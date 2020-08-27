@@ -259,9 +259,7 @@ body {
 }
 
 @media only screen and (max-width: 1023px) {
-  body {
-    background-color: lightblue;
-  }
+  
   .header{
     padding: 0 15px;
   }
