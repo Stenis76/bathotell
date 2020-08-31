@@ -334,6 +334,9 @@ body {
     margin-top: 2rem;
     width:80%
   }
+  .news1 h1 {
+    font-size: 40px;
+  }
   .social-container {
     height: 650px
   }
@@ -351,5 +354,8 @@ body {
   .socialmedia i {
     font-size: 72px;
     margin: 0.5rem;
+  }
+  .footer {
+    margin: 5px
   }
 }
